@@ -73,10 +73,7 @@ def predict():
         custd[k] = v
 
     # Convert 1 or 0 to Yes or No    
-    yn_val = ['OverTime']
-    for val in  yn_val:
-        if custd[val] == '1': custd[val] = 'Yes'
-        else: custd[val] = 'No'
+   
 
     # Loop through 'loaded_models' dictionary and
     # save predictiond to the list
