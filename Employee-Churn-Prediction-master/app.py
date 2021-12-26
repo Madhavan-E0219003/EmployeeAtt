@@ -13,7 +13,7 @@ dt_model = joblib.load('models/nate_decision_tree.sav')
 
 # Dictionary of all loaded models
 loaded_models = {
-    'dt': dt_model,
+    'dt': dt_model
   
 
 }
