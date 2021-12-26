@@ -7,7 +7,7 @@ import joblib
 app = Flask(__name__)
 
 # Load saved models
-dt_model = joblib.load('models/nate_decision_tree.sav')
+dt_model = joblib.load('models/dt.sav')
 
 
 
