@@ -20,8 +20,8 @@ loaded_models = {
 
 # Function to decode predictions 
 def decode(pred):
-    if pred == 1: return 'Customer Exits'
-    else: return 'Customer Stays'
+    if pred == 1: return 'Employee Exits'
+    else: return 'Employee Stays'
 
 @app.route('/')
 def home():
